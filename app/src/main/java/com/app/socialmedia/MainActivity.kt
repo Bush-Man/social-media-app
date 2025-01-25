@@ -6,17 +6,12 @@ import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
 import androidx.compose.foundation.layout.fillMaxSize
-import androidx.compose.foundation.layout.padding
 import androidx.compose.material3.Scaffold
-import androidx.compose.material3.Text
-import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.tooling.preview.Preview
-import com.app.socialmedia.presentation.auth.LoginScreen
-import com.app.socialmedia.presentation.auth.RegisterScreen
+import androidx.navigation.compose.rememberNavController
+import com.app.socialmedia.presentation.feed.FeedScreen
+import com.app.socialmedia.presentation.navigation.NavGraphSetup
 import com.app.socialmedia.presentation.ui.theme.SocialMediaTheme
-import dagger.hilt.EntryPoint
-import dagger.hilt.InstallIn
 import dagger.hilt.android.AndroidEntryPoint
 
 
@@ -29,26 +24,95 @@ class MainActivity : ComponentActivity() {
         setContent {
             SocialMediaTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) {
-                  RegisterScreen()
+                    val navController = rememberNavController()
+//                    FeedScreen(navController = navController)
+                    NavGraphSetup(navController=navController)
+//PostScreen(postId = "1")
+//           ParentScreenLayout(modifier = Modifier)
+//                    LoginScreen()
+//                  RegisterScreen()
 
                 }
             }
         }
     }
 }
+//
+//@Composable
+//fun Greeting(name: String, modifier: Modifier = Modifier) {
+//    Text(
+//        text = "Hello $name!",
+//        modifier = modifier
+//    )
+//}
+//
+//@Preview(showBackground = true)
+//@Composable
+//fun GreetingPreview() {
+//    SocialMediaTheme {
+//        Greeting("Android")
+//    }
+//}
 
-@Composable
-fun Greeting(name: String, modifier: Modifier = Modifier) {
-    Text(
-        text = "Hello $name!",
-        modifier = modifier
-    )
-}
+/*
+*   val dummyPost = PostModel(
+                        postId = "post123",
+                        userId = "user456",
+                        comments = listOf(
+                            PostCommentModel(
+                                content = "Great post!",
+                                hashtags = listOf("#Inspiration", "#Motivation"),
+                                postId = 123,
+                                userId = 789,
+                                commentId = 1,
+                                likesCount = 5,
+                                mentionedUsers = listOf("user890", "user123"),
+                                parentCommentId = 1,
+                                repliesCount = 2,
+                                reportedCount = 0,
+                                reportedReasons = "",
+                                visibility = "public"
+                            ),
+                            PostCommentModel(
+                                content = "Interesting thoughts.",
+                                hashtags = listOf("#Discussion"),
+                                postId = 123,
+                                userId = 101,
+                                commentId = 2,
+                                likesCount = 3,
+                                mentionedUsers = listOf("user456"),
+                                parentCommentId = 1,
+                                repliesCount = 0,
+                                reportedCount = 1,
+                                reportedReasons = listOf("Spam"),
+                                visibility = "public"
+                            )
+                        ),
+                        commentsCount = 2,
+                        createdAt = "2025-01-19T12:34:56Z",
+                        description = "This is a sample post description with some #tags and interesting content.",
+                        likes = listOf(
+                            PostLikeModel(
+                                postId = "post123",
+                                userId = "user789"
+                            ),
+                            PostLikeModel(
+                                postId = "post123",
+                                userId = "user101"
+                            )
+                        ),
+                        likesCount = 2,
+                        privacy = "public",
+                        postOwner = PostOwner(
+                            ownerId = 456,
+                            ownerName = "John Doe",
+                            ownerEmail = "john.doe@example.com",
+                            emailVerifiedAt = 1,
+                            password = "hashedpassword123",
+                            rememberToken = "",
+                            createdAt = "2025-01-10T08:00:00Z",
+                            updatedAt = "2025-01-15T10:30:00Z"
+                        )
+                    )
 
-@Preview(showBackground = true)
-@Composable
-fun GreetingPreview() {
-    SocialMediaTheme {
-        Greeting("Android")
-    }
-}
+* */

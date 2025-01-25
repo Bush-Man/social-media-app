@@ -69,13 +69,35 @@ dependencies {
     androidTestImplementation(libs.androidx.ui.test.junit4)
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
+
+    //Retrofit
     implementation(libs.converter.gson)
     implementation(libs.retrofit)
+
+    //Hilt
     ksp(libs.hilt.android.compiler)
     implementation(libs.hilt.android)
     implementation (libs.androidx.hilt.navigation.compose)
+
+    //Raamcoasta navigation
     implementation(libs.core.vversion)
     ksp(libs.ksp.vversion)
-    implementation (libs.okhttp) // Replace with the latest version
-    implementation (libs.logging.interceptor) // Optional, for logging
+    
+    //Okhttp
+    implementation (libs.okhttp)
+    implementation (libs.logging.interceptor)
+
+    //Pager
+    implementation (libs.accompanist.pager)
+    implementation (libs.accompanist.pager.indicators)
+
+    //Data store
+    implementation(libs.androidx.datastore.preferences)
+
+    //socket io
+    // https://mvnrepository.com/artifact/io.socket/socket.io-client
+    implementation(libs.socket.io.client)
+
+    //scalar convertor replace of gson convertor
+    implementation(libs.converter.scalars)
 }

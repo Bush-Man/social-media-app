@@ -9,5 +9,9 @@ data class RegisterScreenState(
     val passwordConfirmation: String = "",
     val isLoading: Boolean = false,
     val error: String? = null,
-    val response: String? = null
+    val response: String? = null,
+    val passwordErrors: List<String> = emptyList(),
+    val emailErrors: List<String> = emptyList(),
+    val usernameErrors:List<String> = emptyList()
+
 )

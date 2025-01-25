@@ -6,6 +6,7 @@ sealed class RegisterScreenEvents {
     data class onPasswordConfirmChange(val passwordConfirm:String):RegisterScreenEvents()
     data class onEmailChange(val email:String):RegisterScreenEvents()
     data object onRegisterButtonClick : RegisterScreenEvents()
+    data object clearStateError:RegisterScreenEvents()
 
 
 }
