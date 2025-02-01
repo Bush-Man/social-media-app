@@ -34,8 +34,8 @@ Social media app using in Kotlin, **Node.js** for real-time chat messaging and *
 ---
 
 ### Screenshots
-| ![Screenshot 4](https://github.com/user-attachments/assets/719aed67-518b-401b-bd14-b0069b700188) | ![Screenshot 5](https://github.com/user-attachments/assets/beaab346-6fe4-48da-9004-52e3cd2bd9ed) | ![Screenshot 1](https://github.com/user-attachments/assets/94f5fe0f-345b-4a4d-927d-fa51dad40193) | ![Screenshot 2](https://github.com/user-attachments/assets/73aada22-ff1a-4d85-b7ff-ff4f0e2c2890) | ![Screenshot 3](https://github.com/user-attachments/assets/b4d20fa0-cc3e-4852-b4b8-1f15218a7b1d) |
-|:---:|:---:|:---:|:---:|:---:|
-| **Register Screen** | **Login Screen** | **Comment Screen** | **Chat Screen** | **Post Creation** |
+| ![Screenshot 4](https://github.com/user-attachments/assets/719aed67-518b-401b-bd14-b0069b700188) | ![Screenshot 5](https://github.com/user-attachments/assets/beaab346-6fe4-48da-9004-52e3cd2bd9ed) | ![Screenshot 1](https://github.com/user-attachments/assets/94f5fe0f-345b-4a4d-927d-fa51dad40193) | ![Screenshot 2](https://github.com/user-attachments/assets/73aada22-ff1a-4d85-b7ff-ff4f0e2c2890) |
+|:---:|:---:|:---:|:---:|
+| **Register Screen** | **Login Screen** | **Comment Screen** | **Feed Screen** |
 
 
