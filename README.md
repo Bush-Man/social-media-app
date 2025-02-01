@@ -1,7 +1,7 @@
 # Kotlin Social Media App
 
 ## Overview
-Social media app using in Kotlin, **Node.js** for real-time chat messaging and **Laravel** for the backend.
+Social media app using in Kotlin Jetpack compose for frontend, **Node.js** for real-time chat messaging and **Laravel** for the backend.
 
 ---
 
