@@ -10,15 +10,17 @@ Social media app using in Kotlin, **Node.js** for real-time chat messaging and *
 ### Auth
 - Login/Register
   
-### Post Management
+### Post
 - **Create Post**: Users can create and share posts with text, images, or videos.
 - **Like Post**: Users can like posts to show appreciation.
 - **Comment on Post**: Users can comment on posts to engage in discussions.
 - **Share Post**: Users can share posts with others.
 
-### User Interaction
-- **Bookmark Post**: Save posts to revisit later.
-- **Chat Messaging**: Real-time messaging powered by **Node.js** for seamless communication.
+### User
+- **Bookmark Profile**
+- **Bookmark Post**
+- **Chat Messaging**
+- **Report User**
 
 ---
 
@@ -33,14 +35,10 @@ Social media app using in Kotlin, **Node.js** for real-time chat messaging and *
 
 ### Screenshots
 
-| ![Screenshot 1](https://github.com/user-attachments/assets/94f5fe0f-345b-4a4d-927d-fa51dad40193) | ![Screenshot 2](https://github.com/user-attachments/assets/73aada22-ff1a-4d85-b7ff-ff4f0e2c2890) |
-|:---:|:---:|
-| **Home Screen** | **Chat Screen** |
+| ![Screenshot 1](https://github.com/user-attachments/assets/94f5fe0f-345b-4a4d-927d-fa51dad40193) | ![Screenshot 2](https://github.com/user-attachments/assets/73aada22-ff1a-4d85-b7ff-ff4f0e2c2890) | ![Screenshot 3](https://github.com/user-attachments/assets/b4d20fa0-cc3e-4852-b4b8-1f15218a7b1d) |
+|:---:|:---:|:---:|
+| **Home Screen** | **Chat Screen** | **Post Creation** |
 
-| ![Screenshot 3](https://github.com/user-attachments/assets/b4d20fa0-cc3e-4852-b4b8-1f15218a7b1d) | 
-|:---:|:---:|
-| **Post Creation** | **Post Details** |
-
-| ![Screenshot 5](https://github.com/user-attachments/assets/719aed67-518b-401b-bd14-b0069b700188) | ![Screenshot 6](https://github.com/user-attachments/assets/beaab346-6fe4-48da-9004-52e3cd2bd9ed) |
-|:---:|:---:|
-
+| ![Screenshot 4](https://github.com/user-attachments/assets/719aed67-518b-401b-bd14-b0069b700188) | ![Screenshot 5](https://github.com/user-attachments/assets/beaab346-6fe4-48da-9004-52e3cd2bd9ed) | |
+|:---:|:---:|:---:|
+| **Post Details** | **Additional Feature** | |
