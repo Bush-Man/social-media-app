@@ -37,10 +37,10 @@ Social media app using in Kotlin, **Node.js** for real-time chat messaging and *
 |:---:|:---:|
 | **Home Screen** | **Chat Screen** |
 
-| ![Screenshot 3](https://github.com/user-attachments/assets/b4d20fa0-cc3e-4852-b4b8-1f15218a7b1d) | ![Screenshot 4](https://github.com/user-attachments/assets/8bfaef51-0d39-498e-9428-ecca53f8fed3) |
+| ![Screenshot 3](https://github.com/user-attachments/assets/b4d20fa0-cc3e-4852-b4b8-1f15218a7b1d) | 
 |:---:|:---:|
 | **Post Creation** | **Post Details** |
 
 | ![Screenshot 5](https://github.com/user-attachments/assets/719aed67-518b-401b-bd14-b0069b700188) | ![Screenshot 6](https://github.com/user-attachments/assets/beaab346-6fe4-48da-9004-52e3cd2bd9ed) |
 |:---:|:---:|
-| **Bookmarks** | **Settings** |
+
