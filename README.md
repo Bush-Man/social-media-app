@@ -12,8 +12,8 @@ Social media app using in Kotlin Jetpack compose for frontend, **Node.js** for r
   
 ### Post
 - **Create Post**: Users can create and share posts with text, images, or videos.
-- **Like Post**: Users can like posts to show appreciation.
-- **Comment on Post**: Users can comment on posts to engage in discussions.
+- **Like Post**: Users can like posts.
+- **Comment on Post**: Users can comment on posts.
 - **Share Post**: Users can share posts with others.
 
 ### User
